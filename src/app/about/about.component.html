@@ -22,7 +22,11 @@
         <div class="col-md-9">
           <!-- Two-way data binding -->
 
-          <input [(ngModel)]="name" placeholder="Enter your name" />
+          <input
+            class="text"
+            [(ngModel)]="name"
+            placeholder="Enter your name"
+          />
           <h2>Hello {{ name }}, I'm</h2>
           <p>{{ message }}</p>
 
